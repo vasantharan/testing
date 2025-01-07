@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-a-python-script:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout repo content
       uses: actions/checkout@v4
