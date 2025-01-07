@@ -2,7 +2,8 @@ name: Github Actions Example
 
 on:
   push:
-    branches: main
+    branches: 
+      - main
 
 jobs:
   run-a-python-script:
